@@ -41,6 +41,7 @@ class PostForm extends Component {
               name="title"
               value={this.state.title}
               onChange={this._change}
+              autoComplete="off"
             />
           </div>
           <div>
@@ -50,6 +51,7 @@ class PostForm extends Component {
               name="body"
               value={this.state.body}
               onChange={this._change}
+              autoComplete="off"
             />
           </div>
           <br />
